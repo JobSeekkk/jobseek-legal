@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JobSeek – Support</title>
+  <meta name="description" content="Support JobSeek : aide, FAQ, contact, confidentialité, suppression de compte.">
+  <meta property="og:title" content="JobSeek – Support">
+  <meta property="og:description" content="Besoin d'aide ? Trouvez les réponses ou contactez-nous.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jobseek-legal.vercel.app/support">
+  <style>
+    :root{
+      --bg:#0B34FF; --ink:#0b1220; --muted:#55607a; --card:#fff; --ring:#e6eaff;
+    }
+    *{box-sizing:border-box} body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+    header{background:linear-gradient(180deg,var(--bg),#6e8bff);color:#fff;padding:48px 20px}
+    header .wrap{max-width:920px;margin:0 auto;display:flex;gap:24px;align-items:flex-end;justify-content:space-between}
+    h1{margin:0;font-size:36px;line-height:1.2}
+    main{max-width:920px;margin:24px auto;padding:0 20px 64px}
+    section{background:var(--card);border:1px solid var(--ring);border-radius:16px;padding:20px;margin:16px 0}
+    h2{margin:0 0 8px 0;font-size:22px}
+    p{margin:8px 0;color:var(--ink)}
+    .muted{color:var(--muted)}
+    ul{margin:8px 0 0 18px}
+    a{color:#0B34FF;text-decoration:none} a:hover{text-decoration:underline}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:760px){.grid{grid-template-columns:1fr}}
+    .badge{display:inline-block;background:#eef2ff;color:#1b2a6d;border:1px solid #dfe6ff;border-radius:999px;padding:4px 10px;font-size:12px;margin-left:8px}
+    footer{max-width:920px;margin:16px auto 40px;padding:0 20px;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div>
+        <h1>Support JobSeek</h1>
+        <p class="muted">Besoin d’aide ? Trouvez les réponses ou contactez-nous.</p>
+      </div>
+      <div>
+        <a href="/privacy" class="badge">Politique de confidentialité</a>
+        <a href="/delete-account" class="badge">Suppression du compte</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact</h2>
+      <p>📧 E-mail : <a href="mailto:paul@jobseek.fr?subject=[Support]%20JobSeek">paul@jobseek.fr</a></p>
+      <p class="muted">Nous répondons sous 1–2 jours ouvrés (hors week-end et jours fériés).</p>
+    </section>
+
+    <div class="grid">
+      <section>
+        <h2>FAQ rapide</h2>
+        <ul>
+          <li><strong>Je n’arrive pas à me connecter</strong> — vérifiez la dernière version de l’app, puis réessayez. Si le problème persiste, envoyez un mail avec <em>modèle du téléphone</em> et <em>version iOS/Android</em>.</li>
+          <li><strong>CV/LM « adapté » contient une erreur</strong> — le tailoring n’invente pas d’infos. Corrigez directement le document avant l’envoi et signalez-nous le passage concerné.</li>
+          <li><strong>Suivi des candidatures</strong> — tout est centralisé dans l’onglet <em>Tracker</em> (statuts, notes, rappels, pièces jointes).</li>
+          <li><strong>Web ↔ Mobile</strong> — commencez sur mobile et poursuivez sur desktop : <a href="https://app.jobseek.fr" target="_blank" rel="noopener">app.jobseek.fr</a>.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Vie privée & données</h2>
+        <ul>
+          <li>Consultez notre <a href="/privacy">Politique de confidentialité</a> (hébergement UE, RGPD).</li>
+          <li>Demander l’<strong>export</strong> ou la <strong>suppression</strong> des données : suivez les étapes sur <a href="/delete-account">/delete-account</a> ou écrivez-nous.</li>
+          <li>Signalez toute vulnérabilité sécurité à <a href="mailto:paul@jobseek.fr?subject=[Security]%20JobSeek">paul@jobseek.fr</a>.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section>
+      <h2>Signaler un bug</h2>
+      <p>Merci d’inclure :</p>
+      <ul>
+        <li>Étapes pour reproduire, capture d’écran/vidéo si possible</li>
+        <li>Modèle d’appareil + version iOS/Android</li>
+        <li>Heure approximative et e-mail du compte</li>
+      </ul>
+      <p><a href="mailto:paul@jobseek.fr?subject=[Bug]%20JobSeek&body=Describe%20the%20issue...">Envoyer un rapport de bug</a></p>
+    </section>
+
+    <section>
+      <h2>English (quick help)</h2>
+      <p>Need help? Email <a href="mailto:paul@jobseek.fr">paul@jobseek.fr</a>.  
+      See our <a href="/privacy">Privacy Policy</a> and <a href="/delete-account">Delete Account</a> page for data requests.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 JobSeek SAS • Support • <a href="/privacy">Privacy</a> • <a href="/delete-account">Delete Account</a>
+  </footer>
+</body>
+</html>
